@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(fonte/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(fonte/Poppins-Bold.ttf);
+}
+
+body {
+    font-family: "poppins";
+    background-color: white;
+}
+
+.azul {
+    position: absolute;
+    background-color: #ecf2fe;
+    width: 536px;
+    height: 100%;
+    z-index: -999;
+}
+
+.login {
+    display: flex;
+    justify-content: space-evenly;  
+    padding-top: 11%;
+    margin: 0 10%;
+}
+
+.login img {
+    width: 500px;
+    height: auto;
+}
+
+.login-form {
+    display: grid;
+    margin-top: 12%;
+}
+
+span {
+    color: #1e96e3;
+}
+
+input, button {
+    margin-top: 20px;
+    font-family: "poppins";
+    height: 34px;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+input {
+    padding-left: 10px;
+}
+
+button {
+    background-color: #1e96e3;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #025cd7;
+}
+
+p, .mensagem {
+    margin-top: 2px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #1e96e3;
+    font-family: "poppins" 600 15px;
+}
+
+a:focus {
+    color: blue;
+}
