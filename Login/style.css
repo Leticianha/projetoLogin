@@ -19,7 +19,7 @@ body {
     background-color: white;
 }
 
-.azul {
+.cinza {
     position: absolute;
     background-color: #ecf2fe;
     width: 536px;
@@ -45,7 +45,8 @@ body {
 }
 
 span {
-    color: #1e96e3;
+    color: 
+    #1e96e3;
 }
 
 input, button {
@@ -61,18 +62,26 @@ input {
 }
 
 button {
-    background-color: #1e96e3;
+    background-color:#1e96e3;
     color: white;
     font-size: 15px;
 }
 
 button:hover {
-    background-color: #025cd7;
+    background-color: #2384cd;
 }
 
 p, .mensagem {
     margin-top: 2px;
     text-align: center;
+}
+
+p {
+    font-size: 12px;
+}
+
+.mensagem {
+    font-size: 16px;
 }
 
 a {
@@ -82,5 +91,15 @@ a {
 }
 
 a:focus {
-    color: blue;
+    color: 
+    #2384cd;
+}
+
+/* STYLE CRIAR CONTA */
+.body2 {
+    font-family: "poppins";
+}
+
+.criarConta img {
+    width: 500px;
 }
