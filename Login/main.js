@@ -19,7 +19,7 @@ form.addEventListener('submit', (event) => {
     if (usuario === '' || senha === '') {
         alert('Por favor, preencha os campos.');
     //verifica se as informações de login e senha estão corretas
-    }else if (usuario === nameUser && senha === senhaDoUser) {
+    }else if (usuario === "usuario" && senha === "senha") {
         alert('Bem-vindo!');
         //redireciona o usuário para uma outra página após o login
         location.replace("/Tarefa/index.html", "_self");
