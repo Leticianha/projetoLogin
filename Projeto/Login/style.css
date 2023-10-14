@@ -1,3 +1,161 @@
 * {
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(fonte/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(fonte/Poppins-Bold.ttf);
+}
+
+body {
+    font-family: "poppins";
+    background-color: white;
+}
+
+.cinza {
+    position: absolute;
+    background-color: #ecf2fe;
+    width: 536px;
+    height: 100%;
+    z-index: -999;
+}
+
+.login {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 11%;
+    margin: 0 10%;
+}
+
+.login img {
+    width: 500px;
+    height: auto;
+}
+
+.login-form {
+    display: grid;
+    margin-top: 7%;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+span {
+    color: #1e96e3;
+}
+
+input,
+button {
+    margin-top: 20px;
+    font-family: "poppins";
+    height: 34px;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+input {
+    padding-left: 10px;
+}
+
+button {
+    background-color: #1e96e3;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #2384cd;
+}
+
+p,
+.mensagem {
+    margin-top: 2px;
+    text-align: center;
+}
+
+p {
+    font-size: 13px;
+}
+
+.mensagem {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #1e96e3;
+    font-family: "poppins" 600 15px;
+}
+
+a:focus {
+    color:
+        #2384cd;
+}
+
+/* STYLE CRIAR CONTA */
+.body2 {
+    font-family: "poppins";
+}
+
+.azul {
+    width: 50%;
+    background-color: #C0D5F0;
+    position: absolute;
+    left: 768px;
+    height: 100%;
+    z-index: -999;
+}
+
+.criarConta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    padding-top: 11%;
+    margin-left: 15%;
+    margin-right: 6%;
+}
+
+
+.contaCriar {
+    text-align: center;
+}
+
+.contaCriar h3 {
+    margin-bottom: 2%;
+}
+
+.user-forn {
+    display: grid;
+    justify-items: center;
+}
+
+.user-forn input {
+    width: 400px;
+}
+
+.user-forn button {
+    background-color: #1e96e3;
+    color: white;
+    font-size: 15px;
+}
+
+.user-forn a {
+    color: white;
+}
+
+.user-forn button:hover {
+    background-color: #2384cd;
+}
+
+.user-forn button {
+    width: 200px;
 }

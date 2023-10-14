@@ -15,7 +15,7 @@ function listarTarefas() {
     lista.innerHTML = '';
 
     //loop para as tarefas, cria um elemento de lista para cada um
-    for(let i = 0; i < todos.length; i++) {
+    for (let i = 0; i < todos.length; i++) {
         const todo = todos[i]
 
         //cria um elemento delista, um elemento span e um botão para cada tarefa
@@ -23,12 +23,19 @@ function listarTarefas() {
         const span = document.createElement('span');
         const button = document.createElement('button');
 
+        // Crie um elemento de imagem
+        var image = document.createElement("img");
+        image.src = "x.png"; // Substitua pelo caminho da sua imagem
+
         //define o texto da tarefa no elemento span
         span.innerHTML = todo;
 
         //define o texto do botão de exclusão um ouvinte de eventos para remover a tarefa da matriz e mostrar a lista novamente
-        button.innerHTML = 'Excluir';
-        button.addEventListener('click', function() {
+        button.appendChild(image);
+        button.style.marginLeft = '8px'
+        button.style.backgroundColor = 'rgb(166 208 239)'
+        button.style.border = 'none'
+        button.addEventListener('click', function () {
             todos.splice(i, 1);
             listarTarefas();
         });
@@ -43,7 +50,7 @@ function listarTarefas() {
 }
 
 //adicona um ouvinte de eventos ao formulário para detectar quando o usuário envia uma nova tarefa 
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit', function (event) {
     event.preventDefault();
 
     //obtém o texto da tarefa e remove o espaços em brancos extras

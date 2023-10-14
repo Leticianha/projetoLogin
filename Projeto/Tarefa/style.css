@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(fonte/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(fonte/Poppins-Bold.ttf);
+}
+
+body {
+    font-family: "poppins";
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #90c2e68e;
+    height: 70px;
+}
+
+header h1 span {
+    color: #1f7bc3;
+}
+
+.container {
+    min-height: 599px;
+    text-align: center;
+}
+
+.container p {
+    margin: 0 15% 20px 15%;
+    text-align: justify;
+}
+
+.container h1 {
+    padding: 30px 0 10px 0;
+}
+
+form input, form button {
+    font-family: "poppins";
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+form input {
+    width: 800px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    width: 111px;
+    background-color: #1e96e3;
+    color: white;
+    font-size: 15px;
+}
+
+form button:hover {
+    background-color: #1f7bc3;
+}
+
+li {
+    background-color: #87c0e9bd;
+    margin: 15px 230px;
+    border-radius: 10px;
+    height: 40px;
+    list-style: none;
+}
+
+img {
+    width: 22px;
+    padding-top: 8px;
+}
+
+footer {
+    height: 70px;
+    background-color: #90c2e68e;
+    text-align: center;
+    margin-top: 3%;
+}
+
+footer h4 {
+    padding: 1.5% 0;
+}
