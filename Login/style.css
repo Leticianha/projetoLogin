@@ -41,7 +41,7 @@ body {
 
 .login-form {
     display: grid;
-    margin-top: 12%;
+    margin-top: 7%;
 }
 
 .form h2 {
@@ -144,6 +144,8 @@ a:focus {
 
 .user-forn button {
     background-color: #1e96e3;
+    color: white;
+    font-size: 15px;
 }
 
 .user-forn a {
